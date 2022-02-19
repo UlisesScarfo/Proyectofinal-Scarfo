@@ -19,7 +19,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-image: url(PAGES/IMAGEcopy/Footer.jpg);
+        background-image: url(../IMAGE/Footer.jpg);
         background-attachment:fixed;
         background-repeat: no-repeat; 
         background-size: cover;
@@ -56,10 +56,23 @@
         padding-right: 10px;
         padding-left: 10px;
     }
+        a{
+            text-decoration: none;
+        }
     
-        .header-li:hover{
+        .link-header:hover{
         border-radius: 5px;
-        background-color: gray;}
+        background-color: rgb(194, 194, 194);
+        }
+
+        .link-header:link{
+            color: black;
+        }
+
+        .link-header:visited{
+            color: black;
+        }
+
     
     
     
@@ -332,7 +345,7 @@
     }
     
     .footer-container{
-        background-image: url(IMAGE/Footer.jpg);
+        background-image: url(../IMAGE/Footer.jpg);
         background-attachment:fixed;
         background-repeat: no-repeat; 
         background-size: cover;
@@ -342,6 +355,22 @@
     }
     
     /* Fin Estilos footer*/
+    a{
+        text-decoration: none;
+    }
+
+    .link-header:hover{
+    border-radius: 5px;
+    background-color: rgb(156, 156, 156);
+    }
+
+    .link-header:link{
+        color: white;
+    }
+
+    .link-header:visited{
+        color: white;
+    }
     }
     
     /*Estilos para Header mobile*/
@@ -353,7 +382,7 @@
                 justify-content:space-around;
                 align-items: center;
                 align-content: center;
-                background-image: url(IMAGE/Footer.jpg);
+                background-image: url(../IMAGE/Footer.jpg);
                 background-attachment:fixed;
                 background-repeat: no-repeat; 
                 background-size: cover;
@@ -373,19 +402,28 @@
             border-radius: 5px;
             text-decoration: none;
             list-style: none;
-        
         }
-    
-        
             .header-li{
             padding-right: 10px;
             padding-left: 10px;
         }
-        
             .header-li:hover{
             border-radius: 5px;
             background-color: gray;}
-    
+            a{
+                text-decoration: none;
+            }
+            .link-header:hover{
+            border-radius: 5px;
+            background-color: rgb(194, 194, 194);
+            }
+            .link-header:link{
+                color: black;
+            }
+            .link-header:visited{
+                color: black;
+            }
+
     /*Estilos section 1 - presentacion*/
     
     .Section-1{
@@ -648,7 +686,7 @@
     }
     
     .footer-container{
-        background-image: url(IMAGE/Footer.jpg);
+        background-image: url(../IMAGE/Footer.jpg);
         background-attachment:fixed;
         background-repeat: no-repeat; 
         background-size: cover;
@@ -656,11 +694,24 @@
         box-shadow: 0px 5px 50px orange; 
         border:0.1px solid black;  
     }
-    
-    /* Fin Estilos footer*/
-    
+    a{
+        text-decoration: none;
     }
+
+    .link-header:hover{
+        border-radius: 5px;
+        background-color: rgb(156, 156, 156);
+        }
     
+        .link-header:link{
+            color: white;
+        }
+    
+        .link-header:visited{
+            color: white;
+        }
+    /* Fin Estilos footer*/    
+    }
     
     /*Estilos para Header Tablet*/
     @media screen and (min-width: 481px) and (max-width: 980px){
@@ -671,39 +722,48 @@
                 justify-content:space-around;
                 align-items: center;
                 align-content: center;
-                background-image: url(IMAGE/Footer.jpg);
+                background-image: url(../IMAGE/Footer.jpg);
                 background-attachment:fixed;
                 background-repeat: no-repeat; 
                 background-size: cover;
                 box-shadow: 0px 5px 50px orange; 
-                border:0.1px solid black; 
-    
-                
+                border:0.1px solid black;    
             }
-        
             .header-list{  
-            font-family: 'Luxurious Roman', cursive;  
-            font-size: 20px; 
-            color:white ; 
-            list-style: none;
-            width: 100%;
-            padding: 10px 10px 10px 20px;
-            color: orange;
-            background-color: orange;
-            border-radius: 5px;
-            text-decoration: none;
-        
-        }
-    
-        
+                font-family: 'Luxurious Roman', cursive;  
+                font-size: 20px; 
+                color:white ; 
+                list-style: none;
+                width: 100%;
+                padding: 10px 10px 10px 20px;
+                color: orange;
+                background-color: orange;
+                border-radius: 5px;
+                text-decoration: none;
+        } 
             .header-li{
-            padding-right: 10px;
-            padding-left: 10px;
+                padding-right: 10px;
+                padding-left: 10px;
         }
-        
             .header-li:hover{
-            border-radius: 5px;
-            background-color: gray;}
+                border-radius: 5px;
+                background-color: gray;
+            }
+            a{
+                text-decoration: none;
+            }
+             .link-header:hover{
+                border-radius: 5px;
+                background-color: rgb(194, 194, 194);
+            }
+    
+            .link-header:link{
+                color: black;
+            }
+    
+            .link-header:visited{
+                color: black;
+            }
     /*Estilos section 1 - presentacion*/
     
     .Section-1{
@@ -714,14 +774,6 @@
         display: grid;
         grid-template-columns:(1fr, 1fr, 1fr);
         grid-template-rows:(1fr, 1fr, 1fr);
-    }
-    
-    .Video-1{
-        display: flex;
-        justify-content: center;
-        padding-top: 50px;
-        padding-left: 10px;
-        padding-right: 10px;
     }
     
     .title{
@@ -761,7 +813,6 @@
         animation: myAnim 2s ease-out 0s infinite normal forwards;
         box-shadow: 0px 4px 50px white; 
         border-radius: 20px;  
-    
     }
     
     @keyframes myAnim {
@@ -965,7 +1016,7 @@
     }
     
     .footer-container{
-        background-image: url(IMAGE/Footer.jpg);
+        background-image: url(../IMAGE/Footer.jpg);
         background-attachment:fixed;
         background-repeat: no-repeat; 
         background-size: cover;
@@ -973,12 +1024,24 @@
         box-shadow: 0px 5px 50px orange; 
         border:0.1px solid black;  
     }
-    
-    /* Fin Estilos footer*/
-    
-    
-    
+    a{
+        text-decoration: none;
     }
+    .link-header:hover{
+        border-radius: 5px;
+        background-color: rgb(156, 156, 156);
+        }
+    
+        .link-header:link{
+            color: white;
+        }
+    
+        .link-header:visited{
+            color: white;
+        }
+   
+}
+    /* Fin Estilos footer*/
     
     /*Inicio estilos FAQs*/
     
@@ -1007,13 +1070,12 @@
         margin-bottom: 15px;
         border-radius: 5px;
     }
-    
       /*Fin estilos carousel*/
     
     /* Estilos fondo body*/
     
     body{
-        background-image: url(IMAGE/fondo-grisosc.jpg);
+        background-image: url(../IMAGE/fondo-grisosc.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat; 
         background-size: cover;
