@@ -59,10 +59,19 @@
     
         .header-li:hover{
         border-radius: 5px;
-        background-color: gray;}
-    
-    
-    
+        background-color: rgb(172, 169, 169);}
+
+        .link-header:link{
+            color: black;
+        }
+
+        .link-header:visited{
+            color: black;
+        }
+
+        a{
+            text-decoration: none;
+        }
     /*Estilos section 1 - presentacion*/
     
     .Section-1{
@@ -307,6 +316,22 @@
         align-content: center;
         align-items: center;
     }
+    .header-li1:hover{
+        border-radius: 5px;
+        background-color: rgb(172, 169, 169);}
+
+        .link-header1:link{
+            color: white;
+        }
+
+        .link-header1:visited{
+            color: white;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
     .animation-inicio:hover{
         transform: scale(1.5);
     
@@ -381,10 +406,21 @@
             padding-right: 10px;
             padding-left: 10px;
         }
-        
-            .header-li:hover{
+        .header-li:hover{
             border-radius: 5px;
-            background-color: gray;}
+            background-color: rgb(172, 169, 169);}
+    
+            .link-header:link{
+                color: black;
+            }
+    
+            .link-header:visited{
+                color: black;
+            }
+    
+            a{
+                text-decoration: none;
+            }
     
     /*Estilos section 1 - presentacion*/
     
@@ -623,6 +659,22 @@
         align-content: center;
         align-items: center;
     }
+
+    .header-li1:hover{
+        border-radius: 5px;
+        background-color: rgb(172, 169, 169);}
+
+        .link-header1:link{
+            color: white;
+        }
+
+        .link-header1:visited{
+            color: white;
+        }
+
+        a{
+            text-decoration: none;
+        }
     .animation-inicio:hover{
         transform: scale(1.5);
     
@@ -700,10 +752,22 @@
             padding-right: 10px;
             padding-left: 10px;
         }
-        
-            .header-li:hover{
+        .header-li:hover{
             border-radius: 5px;
-            background-color: gray;}
+            background-color: rgb(172, 169, 169);}
+    
+            .link-header:link{
+                color: black;
+            }
+    
+            .link-header:visited{
+                color: black;
+            }
+    
+            a{
+                text-decoration: none;
+            }
+            
     /*Estilos section 1 - presentacion*/
     
     .Section-1{
@@ -940,6 +1004,22 @@
         align-content: center;
         align-items: center;
     }
+
+    .header-li:hover{
+        border-radius: 5px;
+        background-color: rgb(172, 169, 169);}
+
+        .link-header1:link{
+            color: white;
+        }
+
+        .link-header1:visited{
+            color: white;
+        }
+
+        a{
+            text-decoration: none;
+        }
     .animation-inicio:hover{
         transform: scale(1.5);
     
@@ -1017,3 +1097,5 @@
         background-repeat: no-repeat; 
         background-size: cover;
     }
+
+/*# sourceMappingURL=style1.css.map */

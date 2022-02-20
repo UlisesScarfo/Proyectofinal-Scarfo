@@ -1,0 +1,43 @@
+@media screen and (min-width: 481px) and (max-width: 980px){
+      /*Estilos section 1 - presentacion*/
+    
+      .Section-1{
+        color: white;
+    }
+    
+    .inicio{
+        display: grid;
+        grid-template-columns:(1fr, 1fr, 1fr);
+        grid-template-rows:(1fr, 1fr, 1fr);
+    }
+    
+    .Video-1{
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .title{
+        font-family: 'Luxurious Roman', cursive;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 20px 0px 20px 0px;
+    }
+    
+    .Paragraph{
+        font-family: 'Luxurious Roman', cursive;
+        font-size: 20px;
+        border: 3px solid white;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin: 0px 10px 20px 10px;
+    }
+}
+    /*Fin Estilos section 1 - presentacion*/
+  

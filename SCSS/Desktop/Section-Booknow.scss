@@ -1,0 +1,109 @@
+@media screen and (min-width: 981px){
+    
+/*Estilos section 2 - alquileres*/
+    
+.sale{
+    display: grid;
+    width: 30%;
+    margin-left: 34%;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Luxurious Roman', cursive;
+    background-color:orange;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    padding-top: 20px;
+    color: white;
+    animation: myAnim 2s ease-out 0s infinite normal forwards;
+    box-shadow: 0px 4px 50px white; 
+    border-radius: 20px;  
+
+}
+
+@keyframes myAnim {
+    0% {
+      animation-timing-function: ease-out;
+      transform: scale(1);
+      transform-origin: center center;
+    }
+  
+    10% {
+      animation-timing-function: ease-in;
+      transform: scale(0.91);
+    }
+  
+    17% {
+      animation-timing-function: ease-out;
+      transform: scale(0.98);
+    }
+  
+    33% {
+      animation-timing-function: ease-in;
+      transform: scale(0.87);
+    }
+  
+    45% {
+      animation-timing-function: ease-out;
+      transform: scale(1);
+    }
+  }
+
+.alq-container{
+    flex-wrap: wrap;
+
+}  
+
+.Alquileres{
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 30px;
+    padding-top: 20px;
+    color: white;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+   
+    
+
+}
+.Vehiculos-1{
+    padding: 80px 0px 70px 0px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.img1{
+    background-color: white;
+    padding: 30px 20px 50px 20px;
+}
+
+
+
+.price{
+    border:2px outset;
+    background-color: orange;
+    font-family: 'Luxurious Roman', cursive;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.atv{
+    border: 5px outset;
+}
+.utv{
+    border: 5px outset;
+}
+.bike{
+    border: 5px outset;
+}
+
+/*Animaciones seccion 2*/
+
+.square-1:hover{
+    transform: scale(1.35);
+}
+    
+}
