@@ -124,7 +124,6 @@
     padding-bottom: 20px;
     padding-top: 20px;
     font-size: 30px;
-    padding-top: 20px;
     color: white;
     animation: myAnim 2s ease-out 0s infinite normal forwards;
     box-shadow: 0px 4px 50px white;
@@ -269,7 +268,6 @@
   }
 }
 /* Fin estilos maps*/
-/*@import '../SCSS/Desktop/footer.scss';*/
 /*Inicio estilos FAQs*/
 .accordion-body {
   background-color: blanchedalmond;
@@ -378,7 +376,6 @@
   }
 }
 /*Fin Estilos section 1 - presentacion*/
-/*@import '../SCSS/Mobile/footer.scss';*/
 @media screen and (max-width: 480px) {
   /*Estilos seccion 4 maps*/
   .maps {
@@ -781,17 +778,13 @@ body {
   }
 }
 /* Fin estilos maps*/
-/*@import '../SCSS/Tablet/footer.scss';*/
 /* Estilos y animaciones footer*/
 .footer-container {
   color: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 50px 30px 50px 30px;
-  grid-gap: 30px;
+  grid-gap: 10px;
   display: flex;
   align-content: space-around;
-  align-items: center;
+  align-items: stretch;
   text-align: center;
   justify-content: space-around;
 }
