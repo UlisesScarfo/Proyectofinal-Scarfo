@@ -4,6 +4,7 @@
     box-sizing: border-box;
     }
         /*Estilos para Header desktop*/
+        
         @media screen and (min-width: 981px){
             .header-container {
             display: grid;
@@ -68,9 +69,24 @@
     
             a{
                 text-decoration: none;
-            }}
+            }
+        /*Section 2 imagenes*/
+        .Adventures-container{
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-template-rows: repeat(3, auto);
+            grid-gap: 40px;
+            padding: 50px 020px 50px 020px;
+            justify-content: center;
 
-            @media screen and (max-width: 480px){
+        }
+        .grid-item{
+            border: 5px solid black;
+        }        
+    }
+            
+           
+        @media screen and (max-width: 480px){
       
                 .header-container{
                         padding: 1px 1px 1px 1px;
@@ -118,9 +134,23 @@
             
                     a{
                         text-decoration: none;
-                    }}
+                    }
+                
+        /*Section 2 imagenes*/
+        .Adventures-container{
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(5, auto);
+            grid-gap: 40px;
+            padding: 50px 020px 50px 020px;
+            justify-content: center;
 
-                    @media screen and (min-width: 481px) and (max-width: 980px){
+        }
+        .grid-item{
+            border: 5px solid black;
+        }  }
+
+        @media screen and (min-width: 481px) and (max-width: 980px){
       
                         .header-container{
                                 padding: 1px 1px 1px 1px;
@@ -171,7 +201,141 @@
                     
                             a{
                                 text-decoration: none;
-                            }}
-                    
+                            }
+                        
+        /*Section 2 imagenes*/
+        .Adventures-container{
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-template-rows: repeat(3, auto);
+            grid-gap: 40px;
+            padding: 50px 020px 50px 020px;
+            justify-content: center;
 
-    
+        }
+        .grid-item{
+            border: 5px solid black;
+        }  
+     }
+
+
+/*Seccion body*/
+body{
+    background-image: url(../IMAGE/fondo-grisosc.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+/*Seccion 1*/
+.title{
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 10px 20px 10px;
+    color: white;
+}
+
+.Answer{
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 10px 20px 10px;
+    color: white;
+    box-shadow: 0px 0px 10px 10PX orange; 
+    border:0px solid black; 
+    width: 30%;
+    margin-left: 34%; 
+}    
+
+.footer-container{
+    color: white;
+    display: grid;
+    grid-template-columns:(1fr 1fr 1fr);
+    padding: 50px 30px 50px 30px;
+    grid-gap: 30px;
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.footer-contact{
+    font-family: 'Luxurious Roman', cursive;
+    color:white;    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.inicio-footer{
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 15px;
+    color:white;    
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.header-li1:hover{
+    border-radius: 5px;
+    background-color: rgb(172, 169, 169);}
+
+    .link-header1:link{
+        color: white;
+    }
+
+    .link-header1:visited{
+        color: white;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+.animation-inicio:hover{
+    transform: scale(1.5);
+
+}
+
+.parrafo-footer{
+    font-family: 'Luxurious Roman', cursive;
+    color:white;    
+    list-style: none;
+    text-decoration: none;
+}
+
+.icon-1:hover{
+    transform: scale(2);
+}
+
+.icon-2:hover{
+    transform: scale(2);
+}
+
+.icon-3:hover{
+    transform: scale(2);
+}
+
+.footer-container{
+    background-image: url(../IMAGE/Footer.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100%;
+    box-shadow: 0px 5px 50px orange; 
+    border:0.1px solid black;  
+}
+
+/* Fin Estilos footer*/   

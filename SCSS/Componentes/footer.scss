@@ -1,17 +1,13 @@
-@media screen and (max-width: 480px){
 /* Estilos y animaciones footer*/
     
 .footer-container{
     color: white;
-    display: grid;
-    grid-template-columns:(1fr 1fr 1fr);
-    padding: 50px 30px 50px 30px;
-    grid-gap: 30px;
+    grid-gap: 10px;
     display: flex;
     align-content: space-around;
-    align-items: center;
+    align-items: stretch;
     text-align: center;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 
 .footer-contact{
@@ -37,7 +33,6 @@
     align-content: center;
     align-items: center;
 }
-
 .header-li1:hover{
     border-radius: 5px;
     background-color: rgb(172, 169, 169);}
@@ -53,6 +48,7 @@
     a{
         text-decoration: none;
     }
+
 .animation-inicio:hover{
     transform: scale(1.5);
 
@@ -85,8 +81,4 @@
     height: 100%;
     box-shadow: 0px 5px 50px orange; 
     border:0.1px solid black;  
-}
-
-/* Fin Estilos footer*/
-
 }

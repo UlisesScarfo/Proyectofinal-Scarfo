@@ -1,0 +1,388 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+        /*Estilos para Header desktop*/
+        @media screen and (min-width: 981px){
+            .header-container {
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            color: white;
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: url(../IMAGE/Footer.jpg);
+            background-attachment:fixed;
+            background-repeat: no-repeat; 
+            background-size: cover;
+            box-shadow: 0px 5px 50px orange; 
+            border:0.1px solid black;  
+            flex-wrap: wrap;
+        
+            }
+        
+            .header{
+            display: flex;
+            justify-content: space-between;
+            min-width: 250px;
+        }
+        
+            .header-list{  
+            font-family: 'Luxurious Roman', cursive;  
+            font-size: 20px; 
+            color:white ; 
+            list-style: none;
+            width: 100%;
+            display: flex;
+            justify-content:space-between;     
+            align-self: center;
+            padding: 10px 10px 10px 20px;
+            color: orange;
+            background-color: orange;
+            border-radius: 5px;
+            min-width: 250px;
+        
+        }
+        
+            .header-li{
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        
+            .header-li:hover{
+            border-radius: 5px;
+            background-color: rgb(172, 169, 169);}
+    
+            .link-header:link{
+                color: black;
+            }
+    
+            .link-header:visited{
+                color: black;
+            }
+    
+            a{
+                text-decoration: none;
+            }}
+
+        @media screen and (max-width: 480px){
+      
+                .header-container{
+                        padding: 1px 1px 1px 1px;
+                        display:flex;
+                        justify-content:space-around;
+                        align-items: center;
+                        align-content: center;
+                        background-image: url(../IMAGE/Footer.jpg);
+                        background-attachment:fixed;
+                        background-repeat: no-repeat; 
+                        background-size: cover;
+                        box-shadow: 0px 5px 50px orange; 
+                        border:0.1px solid black;  
+                    }
+                
+                    .header-list{  
+                    font-family: 'Luxurious Roman', cursive;  
+                    font-size: 20px; 
+                    color:white ; 
+                    list-style: none;
+                    width: 100%;
+                    padding: 10px 10px 10px 20px;
+                    color: orange;
+                    background-color: orange;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    list-style: none;
+                
+                }
+                    .header-li{
+                    padding-right: 10px;
+                    padding-left: 10px;
+                }
+                .header-li:hover{
+                    border-radius: 5px;
+                    background-color: rgb(172, 169, 169);}
+            
+                    .link-header:link{
+                        color: black;
+                    }
+            
+                    .link-header:visited{
+                        color: black;
+                    }
+            
+                    a{
+                        text-decoration: none;
+                    }}
+
+        @media screen and (min-width: 481px) and (max-width: 980px){
+      
+                        .header-container{
+                                padding: 1px 1px 1px 1px;
+                                display:flex;
+                                justify-content:space-around;
+                                align-items: center;
+                                align-content: center;
+                                background-image: url(../IMAGE/Footer.jpg);
+                                background-attachment:fixed;
+                                background-repeat: no-repeat; 
+                                background-size: cover;
+                                box-shadow: 0px 5px 50px orange; 
+                                border:0.1px solid black; 
+                    
+                                
+                            }
+                        
+                            .header-list{  
+                            font-family: 'Luxurious Roman', cursive;  
+                            font-size: 20px; 
+                            color:white ; 
+                            list-style: none;
+                            width: 100%;
+                            padding: 10px 10px 10px 20px;
+                            color: orange;
+                            background-color: orange;
+                            border-radius: 5px;
+                            text-decoration: none;
+                        
+                        }
+                    
+                        
+                        .header-li{
+                            padding-right: 10px;
+                            padding-left: 10px;
+                        }
+                        .header-li:hover{
+                            border-radius: 5px;
+                            background-color: rgb(172, 169, 169);}
+                    
+                        .link-header:link{
+                                color: black;
+                            }
+                    
+                        .link-header:visited{
+                                color: black;
+                            }
+                    
+                        a{
+                                text-decoration: none;
+                            }}
+    
+
+
+/* Estilos fondo body*/
+    
+body{
+    background-image: url(../IMAGE/fondo-grisosc.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}                            
+
+/* Estilos y animaciones footer*/
+    
+.footer-container{
+    color: white;
+    grid-gap: 10px;
+    display: flex;
+    align-content: space-around;
+    align-items: stretch;
+    text-align: center;
+    justify-content:space-around;
+}
+
+.footer-contact{
+    font-family: 'Luxurious Roman', cursive;
+    color:white;    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.inicio-footer{
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 15px;
+    color:white;    
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.header-li1:hover{
+    border-radius: 5px;
+    background-color: rgb(172, 169, 169);}
+
+    .link-header1:link{
+        color: white;
+    }
+
+    .link-header1:visited{
+        color: white;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+.animation-inicio:hover{
+    transform: scale(1.5);
+
+}
+
+.parrafo-footer{
+    font-family: 'Luxurious Roman', cursive;
+    color:white;    
+    list-style: none;
+    text-decoration: none;
+}
+
+.icon-1:hover{
+    transform: scale(2);
+}
+
+.icon-2:hover{
+    transform: scale(2);
+}
+
+.icon-3:hover{
+    transform: scale(2);
+}
+
+.footer-container{
+    background-image: url(../IMAGE/Footer.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100%;
+    box-shadow: 0px 5px 50px orange; 
+    border:0.1px solid black;  
+}
+
+/*SECCION 1 - CONTACTO*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+ 	text-rendering:optimizeLegibility;
+}
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#777;
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], 
+#contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:orange;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background: orange;
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}

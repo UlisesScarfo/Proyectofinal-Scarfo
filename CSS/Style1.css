@@ -269,96 +269,7 @@
   }
 }
 /* Fin estilos maps*/
-@media screen and (min-width: 981px) {
-  /* Estilos y animaciones footer*/
-  .footer-container {
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px 30px 50px 30px;
-    grid-gap: 30px;
-    display: flex;
-    align-content: space-around;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-  }
-
-  .footer-contact {
-    font-family: "Luxurious Roman", cursive;
-    color: white;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
-
-  .inicio-footer {
-    font-family: "Luxurious Roman", cursive;
-    font-size: 15px;
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
-
-  .header-li1:hover {
-    border-radius: 5px;
-    background-color: #aca9a9;
-  }
-
-  .link-header1:link {
-    color: white;
-  }
-
-  .link-header1:visited {
-    color: white;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  .animation-inicio:hover {
-    transform: scale(1.5);
-  }
-
-  .parrafo-footer {
-    font-family: "Luxurious Roman", cursive;
-    color: white;
-    list-style: none;
-    text-decoration: none;
-  }
-
-  .icon-1:hover {
-    transform: scale(2);
-  }
-
-  .icon-2:hover {
-    transform: scale(2);
-  }
-
-  .icon-3:hover {
-    transform: scale(2);
-  }
-
-  .footer-container {
-    background-image: url(../IMAGE/Footer.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    box-shadow: 0px 5px 50px orange;
-    border: 0.1px solid black;
-  }
-}
-/* Fin Estilos footer*/
+/*@import '../SCSS/Desktop/footer.scss';*/
 /*Inicio estilos FAQs*/
 .accordion-body {
   background-color: blanchedalmond;
@@ -467,97 +378,7 @@
   }
 }
 /*Fin Estilos section 1 - presentacion*/
-@media screen and (max-width: 480px) {
-  /* Estilos y animaciones footer*/
-  .footer-container {
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px 30px 50px 30px;
-    grid-gap: 30px;
-    display: flex;
-    align-content: space-around;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-  }
-
-  .footer-contact {
-    font-family: "Luxurious Roman", cursive;
-    color: white;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
-
-  .inicio-footer {
-    font-family: "Luxurious Roman", cursive;
-    font-size: 15px;
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
-
-  .header-li1:hover {
-    border-radius: 5px;
-    background-color: #aca9a9;
-  }
-
-  .link-header1:link {
-    color: white;
-  }
-
-  .link-header1:visited {
-    color: white;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  .animation-inicio:hover {
-    transform: scale(1.5);
-  }
-
-  .parrafo-footer {
-    font-family: "Luxurious Roman", cursive;
-    color: white;
-    list-style: none;
-    text-decoration: none;
-  }
-
-  .icon-1:hover {
-    transform: scale(2);
-  }
-
-  .icon-2:hover {
-    transform: scale(2);
-  }
-
-  .icon-3:hover {
-    transform: scale(2);
-  }
-
-  .footer-container {
-    background-image: url(../IMAGE/Footer.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    box-shadow: 0px 5px 50px orange;
-    border: 0.1px solid black;
-  }
-
-  /* Fin Estilos footer*/
-}
+/*@import '../SCSS/Mobile/footer.scss';*/
 @media screen and (max-width: 480px) {
   /*Estilos seccion 4 maps*/
   .maps {
@@ -960,95 +781,93 @@ body {
   }
 }
 /* Fin estilos maps*/
-@media screen and (min-width: 481px) and (max-width: 980px) {
-  /* Estilos y animaciones footer*/
-  .footer-container {
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px 30px 50px 30px;
-    grid-gap: 30px;
-    display: flex;
-    align-content: space-around;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-  }
-
-  .footer-contact {
-    font-family: "Luxurious Roman", cursive;
-    color: white;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
-
-  .inicio-footer {
-    font-family: "Luxurious Roman", cursive;
-    font-size: 15px;
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
-
-  .header-li:hover {
-    border-radius: 5px;
-    background-color: #aca9a9;
-  }
-
-  .link-header1:link {
-    color: white;
-  }
-
-  .link-header1:visited {
-    color: white;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  .animation-inicio:hover {
-    transform: scale(1.5);
-  }
-
-  .parrafo-footer {
-    font-family: "Luxurious Roman", cursive;
-    color: white;
-    list-style: none;
-    text-decoration: none;
-  }
-
-  .icon-1:hover {
-    transform: scale(2);
-  }
-
-  .icon-2:hover {
-    transform: scale(2);
-  }
-
-  .icon-3:hover {
-    transform: scale(2);
-  }
-
-  .footer-container {
-    background-image: url(../IMAGE/Footer.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    box-shadow: 0px 5px 50px orange;
-    border: 0.1px solid black;
-  }
+/*@import '../SCSS/Tablet/footer.scss';*/
+/* Estilos y animaciones footer*/
+.footer-container {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px 30px 50px 30px;
+  grid-gap: 30px;
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
 }
-/* Fin Estilos footer*/
+
+.footer-contact {
+  font-family: "Luxurious Roman", cursive;
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.inicio-footer {
+  font-family: "Luxurious Roman", cursive;
+  font-size: 15px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.header-li1:hover {
+  border-radius: 5px;
+  background-color: #aca9a9;
+}
+
+.link-header1:link {
+  color: white;
+}
+
+.link-header1:visited {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.animation-inicio:hover {
+  transform: scale(1.5);
+}
+
+.parrafo-footer {
+  font-family: "Luxurious Roman", cursive;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.icon-1:hover {
+  transform: scale(2);
+}
+
+.icon-2:hover {
+  transform: scale(2);
+}
+
+.icon-3:hover {
+  transform: scale(2);
+}
+
+.footer-container {
+  background-image: url(../IMAGE/Footer.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  box-shadow: 0px 5px 50px orange;
+  border: 0.1px solid black;
+}
 
 /*# sourceMappingURL=style1.css.map */
