@@ -386,3 +386,7 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
+
+.disclaimer{
+    display: none;
+}

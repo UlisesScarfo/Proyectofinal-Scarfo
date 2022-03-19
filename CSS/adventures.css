@@ -370,7 +370,9 @@ body{
 
 /* Fin Estilos footer*/   
 
-
+.disclaimer{
+    display: none;
+}
 
  
 
