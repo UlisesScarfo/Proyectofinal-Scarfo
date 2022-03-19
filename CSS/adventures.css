@@ -238,6 +238,36 @@ body{
     color: white;
 }
 
+.img1:hover{
+    transform: scale(1.2);
+}
+.img2:hover{
+    transform: scale(1.2);
+}
+.img3:hover{
+    transform: scale(1.2);
+}
+.img4:hover{
+    transform: scale(1.2);
+}
+.img5:hover{
+    transform: scale(1.2);
+}
+.img6:hover{
+    transform: scale(1.2);
+}
+.img7:hover{
+    transform: scale(1.2);
+}
+.img8:hover{
+    transform: scale(1.2);
+}
+.img9:hover{
+    transform: scale(1.2);
+}
+
+
+
 .Answer{
     font-family: 'Luxurious Roman', cursive;
     font-size: 20px;
